@@ -21,4 +21,7 @@
 #rm -rf package/lean/luci-theme-argon  
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+#编译新版Sing-box和hysteria，尽量使用golang版本1.22以上版本 ，可以用以下命令
+rm -rf feeds/packages/lang/golang
+git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
